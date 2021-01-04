@@ -302,6 +302,11 @@ footer {
         display: none;
     }
 
+    .links-hamburguer-menu {
+        display: none !important;
+        background-color: blue;
+    }
+
     .links-container {
         display: block;
     }

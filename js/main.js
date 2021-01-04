@@ -10,9 +10,7 @@ hamburguerMenu.addEventListener('click', () => {
 
 let searchHeaderBbtn = document.querySelector('.search-header-btn')
 let mainSearchInput = document.getElementById('mainSearchInput')
-console.log(mainSearchInput)
 searchHeaderBbtn.addEventListener('click', (e) => {
     e.preventDefault()
-    console.log("a")
     mainSearchInput.focus()
 })
